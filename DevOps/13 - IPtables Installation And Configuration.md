@@ -10,7 +10,6 @@ We have one of our websites up and running on our `Nautilus` infrastructure in `
 
 ---
 
-
 ## 🚀 Complete Solution
 
 1. **Identify the Load Balancer IP:**
