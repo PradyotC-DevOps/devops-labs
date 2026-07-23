@@ -1,0 +1,55 @@
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# 🛠️ Editor & IDE Configuration Files
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# 🔐 CRITICAL SECURITY: Secrets & Credentials
+# ==========================================
+*.pem
+*.key
+*.pub
+*.cert
+*.crt
+*.pfx
+secrets/
+credentials/
+.env
+.env.*
+!.env.example
+config.private.json
+
+# ==========================================
+# 📦 DevOps Tooling Temporary Files
+# ==========================================
+# Terraform local state and crash logs
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Vagrant and local virtual machine data
+.vagrant/
+*.box
+
+# Docker local overrides and build logs
+docker-compose.override.yml
+npm-debug.log*
+yarn-error.log*
